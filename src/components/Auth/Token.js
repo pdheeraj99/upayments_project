@@ -1,0 +1,5 @@
+// Replace the token with your's
+const Token =
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBpbGxhZGhlZXJhakBnbWFpbC5jb20iLCJnaXRodWIiOiJodHRwczovL2dpdGh1Yi5jb20vcGRoZWVyYWo5OSIsImlhdCI6MTY1OTg3NzI0NSwiZXhwIjoxNjYwMzA5MjQ1fQ.mVyyDbwqu-7zYrJt_7kA8H-OJRR8_s4dYy2P5AMwMBA';
+
+export default Token;

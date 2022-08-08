@@ -1,11 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+
+import Header from './components/common/Header';
+import Section from './components/common/Section';
+import { DataProvider } from './components/common/Context';
 
 function App() {
   return (
-    <div className='App'>
-      <h1>Testing Project</h1>
-    </div>
+    <DataProvider>
+      <div className='app'>
+        <Router>
+          <Header />
+          <Section />
+        </Router>
+      </div>
+    </DataProvider>
   );
 }
 
